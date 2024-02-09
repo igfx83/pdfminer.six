@@ -547,7 +547,7 @@ class LTTextLineHorizontal(LTTextLine):
         """
         Finds neighboring LTTextLineHorizontals in the plane.
 
-        Returns a list of other LTTestLineHorizontals in the plane which are
+        Returns a list of other LTTextLineHorizontals in the plane which are
         close to self. "Close" can be controlled by ratio. The returned objects
         will be the same height as self, and also either left-, right-, or
         centrally-aligned.
